@@ -1,0 +1,49 @@
+*{
+    background-color: blueviolet;
+    margin:0;
+    padding:0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    color:red;
+    margin-bottom: 30px;
+}
+.text textarea{
+    align-items: center;
+}
+textarea{
+    height:300px;
+    width:600px;
+    border:0;
+    border-radius:10px;
+    outline: 0;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: green;
+}
+.play button{
+    align-items: center;
+    background: blue;
+    color: yellow;
+    font-size: 25px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border:0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+button img{
+    width: 15px;
+    margin-right: 10px;
+}
+
